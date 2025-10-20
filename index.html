@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio - Angelica 👩‍💻💗</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-container">
+        <h1 class="logo">👩‍💻My Portofolio 🌈💗</h1>
+        <ul class="nav-menu">
+          <li><a href="#" data-section="home">Home</a></li>
+          <li><a href="#" data-section="portfolio">Portofolio</a></li>
+          <li><a href="#" data-section="skills">Skills</a></li>
+          <li><a href="#" data-section="education">Education</a></li>
+          <li><a href="#" data-section="contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <section id="home" class="section active">
+        <div class="container">
+          <div class="profile-card">
+            <img id="profile-photo" src="webcam-toy-photo13.jpg" alt="Profile Photo" />
+            <h2 id="profile-name">🌺 Angelica 🎀</h2>
+            <p id="profile-description">
+              💻 Halo! Saya Angelica, mahasiswa Teknik Informatika yang suka membuat website interaktif dan menarik. Saya fokus pada pengembangan front-end dan desain UI/UX, serta menciptakan solusi digital yang bermanfaat. Jika Anda ingin
+              bekerja sama atau berkolaborasi, silakan hubungi saya melalui kontak di bawah ini atau klik menu Contact di navbar.🌸
+            </p>
+            <div id="contact-info" class="contact-info">
+              <p id="profile-email">✉️ Email: Licaangelica061@gmail.com</p>
+              <p id="profile-contact">📞 Kontak: 082271044249</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio" class="section">
+        <div class="container">
+          <h2>🩷 My Projects 👇</h2>
+          <div id="projects-list" class="projects-grid"></div>
+        </div>
+      </section>
+
+      <section id="skills" class="section">
+        <div class="container">
+          <h2>🩷 My Skills 👇</h2>
+          <div id="skills-list" class="skills-grid"></div>
+        </div>
+      </section>
+
+      <section id="education" class="section">
+        <div class="container">
+          <h2>🩷 My Education 👇</h2>
+          <div id="education-list" class="education-list"></div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container">
+          <h2>🩷Contact Me 👇</h2>
+          <form id="contact-form">
+            <input type="text" id="sender-name" placeholder="Your Name" required />
+            <input type="email" id="sender-email" placeholder="Your Email" required />
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+          </form>
+          <div id="messages-list" class="messages-list"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Angelica. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
